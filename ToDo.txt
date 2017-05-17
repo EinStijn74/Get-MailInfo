@@ -2,7 +2,7 @@
 tested/created below script to implement
     $process="vmms"
     if (!($a =get-process $process -ErrorAction SilentlyContinue) ) {
-        write-host "error, user SLAN does not exist"
+        write-warning -message "error, user SLAN does not exist"
         }
         else {$a}
 
