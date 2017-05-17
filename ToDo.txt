@@ -5,7 +5,6 @@ tested/created below script to implement
         write-warning -message "error, user SLAN does not exist"
         }
         else {$a}
-
-
-
 2: create readme.txt
+
+3: check multiple properties pipeline input
