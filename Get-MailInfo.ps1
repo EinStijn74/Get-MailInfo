@@ -1,7 +1,7 @@
  function Get-MailInfo {
 
 ################################################################################################
-# Name: Get-MailInfo                                                                        #
+# Name: Get-MailInfo                                                                           #
 # Version: 1.0 (May, 2017)                                                                     #
 # Created by: Stijn Langenberg                                                                 #
 # What is it: Script combines output for Get-Mailbox, Get-MAilboxStatics and Get-CasMailbox    #
