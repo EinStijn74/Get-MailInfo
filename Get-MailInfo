@@ -30,7 +30,7 @@ $Output = @()
   $MailboxStatistics = Get-MailboxStatistics $User
   $CasMailbox = Get-CASMailbox $user
 
-   #Below Prorties are an example more can be added
+   #Below Properties are an example more can be added
    $Property = "" | Select-Object DisplayName,SamAccountName,ItemCount,DatabaseProhibitSendReceiveQuota,TotalItemSize,DeletedItemCount
      $Property.Displayname = $Mailbox.DisplayName
      $Property.SamAccountName = $Mailbox.SamAccountName
