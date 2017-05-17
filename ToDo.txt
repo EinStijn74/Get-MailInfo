@@ -1,2 +1,11 @@
-Add eror handling / error display messages
-create readme.txt
+1: Add eror handling / error display messages
+tested below script to implement
+    $process="vmms"
+    if (!($a =get-process $process -ErrorAction SilentlyContinue) ) {
+        write-host "error, user SLAN does not exist"
+        }
+        else {$a}
+
+
+
+2: create readme.txt
