@@ -1,3 +1,4 @@
+
 1: Add eror handling / error display messages
 tested/created below script to implement
     $process="vmms"
@@ -8,3 +9,11 @@ tested/created below script to implement
 2: create readme.txt
 
 3: check multiple properties pipeline input
+Example script
+    Function Get-Something {
+        [cmdletbinding()]
+        Param (
+           [parameter(ValueFromPipeline=$True)]
+            [string[]]$Name,
+            [parameter(ValueFromPipeline=$True)]
+            [string[]]$Directory
