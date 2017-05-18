@@ -18,4 +18,6 @@ Example script
             [parameter(ValueFromPipeline=$True)]
             [string[]]$Directory
 
-4: change script formatting, used from Visual Stidio Code
+4: change script formatting, used from Visual Studio Code
+
+5: Add most commonly used properties
