@@ -17,3 +17,5 @@ Example script
             [string[]]$Name,
             [parameter(ValueFromPipeline=$True)]
             [string[]]$Directory
+
+4: change script formatting, used from Visual Stidio Code
