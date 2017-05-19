@@ -1,23 +1,7 @@
 
-1: Add eror handling / error display messages
-tested/created below script to implement
-    $process="vmms"
-    if (!($a =get-process $process -ErrorAction SilentlyContinue) ) {
-        write-warning -message "error, user SLAN does not exist"
-        }
-        else {$a}
 2: create readme.txt
 
-3: check multiple properties pipeline input
-Example script
-    Function Get-Something {
-        [cmdletbinding()]
-        Param (
-           [parameter(ValueFromPipeline=$True)]
-            [string[]]$Name,
-            [parameter(ValueFromPipeline=$True)]
-            [string[]]$Directory
+3: multiple properties pipeline input (database/server)
 
-4: change script formatting, used from Visual Studio Code
 
-5: Add most commonly used properties
+
