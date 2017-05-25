@@ -1,5 +1,4 @@
 
-2: create readme.txt
 
 3: multiple properties pipeline input (database/server)
 
