@@ -12,8 +12,7 @@ EXAMPLES
 
 get-mailinfo first.lastnam@mail.com
 get-mailinfo "first lastname"
-
-get-mailinfo mysamaccountname
+get-mailinfo samaccountname
 
 get-aduser filter * -searchbase "OU=OFFICE01.....) | get-mailinfo | fl *quota*, *size*
 get-mailboxdatabase dag01* | get-mailinfo
