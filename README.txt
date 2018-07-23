@@ -13,6 +13,8 @@ get-mailinfo samaccountname
 
 get-aduser filter * -searchbase "OU=OFFICE01....." | get-mailinfo | fl *quota*, *size*
 
+get-mailbox * | select samaccountname | get-mailinfo
+
 QUESTIONS / FEEDBACK
 
 Please let me know...
